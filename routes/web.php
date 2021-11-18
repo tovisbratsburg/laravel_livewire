@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::get('/counter', function () {
     return view('counter');
 });
+
+Route::get('/comments', function () {
+    return view('comments');
+});
